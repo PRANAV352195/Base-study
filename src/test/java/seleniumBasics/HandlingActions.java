@@ -29,7 +29,7 @@ public class HandlingActions extends Base {
 		WebElement droped = driver.findElement(By.id("droppable"));
 		Actions actions = new Actions(driver);
 		actions.dragAndDrop(dragme, droped).build().perform();
-
+//xxx
 	}
 
 	public static void main(String[] args) {
